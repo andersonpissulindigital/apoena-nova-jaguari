@@ -50,11 +50,12 @@
     </header>
 
     <!-- [SEÇÃO 1] HERO SECTION -->
+    <main>
     <section class="hero">
         <div class="hero-overlay"></div>
-        <!-- Imagem de Fundo Simulada (Pode ser alterada via CSS) -->
+        <!-- Imagem de Fundo (LCP Priorizado) -->
         <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
-            alt="Vista do Condomínio" class="hero-bg">
+            alt="Vista do Condomínio" class="hero-bg" fetchpriority="high" width="2000" height="1333">
 
         <div class="container hero-content fade-in">
             <div class="badge">A ÚNICA COM ESCRITÓRIO NO CONDOMÍNIO</div>
@@ -118,9 +119,9 @@
                 </div>
                 <div class="image-mosaic fade-in delay-1">
                     <img src="nova-jaguari-1.jpg" alt="Área de Lazer Completa Nova Jaguari - Quadras e Parquinhos"
-                        class="mosaic-1">
+                        class="mosaic-1" loading="lazy" width="800" height="600">
                     <img src="nova-jaguari-2.jpg" alt="Vista Aérea dos Lotes e Casas de Luxo no Nova Jaguari"
-                        class="mosaic-2">
+                        class="mosaic-2" loading="lazy" width="800" height="400">
                 </div>
             </div>
         </div>
@@ -148,6 +149,7 @@
             </div>
         </div>
     </section>
+    </main>
 
     <!-- FOOTER -->
     <footer class="footer">
